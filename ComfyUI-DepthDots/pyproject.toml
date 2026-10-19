@@ -1,0 +1,11 @@
+[project]
+name = "comfyui-depthdots"
+description = "Depth Anything V2 depth -> dot / stipple art, GPU accelerated (CUDA / Apple MPS / CPU). Images and video."
+version = "1.0.0"
+license = { text = "MIT" }
+dependencies = ["transformers>=4.45", "numpy", "Pillow"]
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "DepthDots"
+Icon = ""
